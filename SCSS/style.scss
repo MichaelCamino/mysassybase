@@ -1,5 +1,7 @@
 $color-background: hotpink;
 
+@import "partials/toc";
+
 body {
     background: $color-background;
 }
