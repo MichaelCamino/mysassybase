@@ -1,7 +1,20 @@
-$color-background: hotpink;
-
 @import "partials/toc";
 
-body {
-    background: $color-background;
-}
+/* GLOBAL RESETS */
+
+* { box-sizing: border-box;}
+
+// VARIABLES
+
+$color-text-body: rgba(0, 0, 0, .8);
+$color-text-headings: rgba(0, 0, 0, 1);
+$color-accent: rgba(255, 0, 0, 1);
+$color-accent-dark: rgb(185, 0, 0);
+$color-lightgrey: rgba(0, 0, 0, .4);
+$font-family-sans: source sans pro, helvetica, arial;
+$font-family-serif: source serif pro georgia, times;
+
+// IMPORTS
+
+@import "partials/typography";
+@import "partials/buttons";
