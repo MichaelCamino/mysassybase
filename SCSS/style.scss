@@ -14,7 +14,16 @@ $color-lightgrey: rgba(0, 0, 0, .4);
 $font-family-sans: source sans pro, helvetica, arial;
 $font-family-serif: source serif pro georgia, times;
 
+// BREAKPOINTS 
+
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
 // IMPORTS
 
 @import "partials/typography";
 @import "partials/buttons";
+@import "partials/media";  
+@import "partials/layout";
+@import "partials/grid";
