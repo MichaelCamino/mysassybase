@@ -9,6 +9,12 @@
     # CONTAINER
     # MEDIA QURIES
     # CUSTOM SEMANTIC GRID SYSTEM
+#STRUCTURE
+    #SITE HEADER
+    #SITE NAV
+    #MAIN
+        #SECTIONS
+    #SITE FOOTER  
 
 
 
@@ -112,6 +118,19 @@ hr {
   color: rgba(0, 0, 0, 0.4);
   margin: 0.25 0;
   line-height: 1.1;
+}
+
+/* SECTION HEADING */
+.section-heading {
+  font-size: 1em;
+  font-family: source sans pro, helvetica, arial;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #b90000;
+  display: table;
+  margin: 1em auto 3em auto;
+  padding: 0 0 0.5em 0;
 }
 
 /* BUTTONS */
@@ -259,4 +278,84 @@ body {
 .demo .row > * {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1%;
+}
+
+/* SITE STRUCTURE */
+.site-header {
+  background: #b90000;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-header a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.site-header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* SITE-FOOTER */
+.site-footer {
+  background: #b90000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+}
+.site-footer a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 1em;
+}
+.site-footer ul {
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+/* SITE-NAV */
+.site-nav ul {
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+.site-nav a {
+  display: block;
+  padding: 1em;
+  line-height: 1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+/* HERO SECTION */
+.hero {
+  background: #ff79cb;
+  text-align: center;
+  padding: 6em;
+}
+.hero h1 {
+  margin-bottom: 0.25em;
+}
+.hero p {
+  margin: 1em auto;
 }

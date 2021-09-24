@@ -9,7 +9,8 @@
 $color-text-body: rgba(0, 0, 0, .8);
 $color-text-headings: rgba(0, 0, 0, 1);
 $color-accent: rgba(255, 0, 0, 1);
-$color-accent-dark: rgb(185, 0, 0);
+$color-accent-dark: rgba(185, 0, 0, 1);
+$color-accent-light: rgb(255, 121, 203);
 $color-lightgrey: rgba(0, 0, 0, .4);
 $font-family-sans: source sans pro, helvetica, arial;
 $font-family-serif: source serif pro georgia, times;
@@ -27,3 +28,4 @@ $breakpoint-large: 1250px;
 @import "partials/media";  
 @import "partials/layout";
 @import "partials/grid";
+@import "partials/structure";

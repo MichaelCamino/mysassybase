@@ -18,9 +18,31 @@
 </head>
 <body>
 
-    <div class="container">
+    <header class="site-header">
+        <div class="site-id">
+            <h1><a href="#">My Sass</a></h1>
+        </div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#layout">Layout</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>This is a heading</h1>
+    <main class="site-main">
+        <section class="hero">
+            <div class="container">
+            <h1>GIVE ME SOME SASS</h1>
+            <p>Single page site built with SASS</p>
+            <a href="#typography" class="button">Go to Typography</a>
+            </div>
+        </section>
+        <section id="typography">
+            
+            <div class="container">
+                <h2 class="section-heading">Typography</h2>
+                <h1>This is a heading</h1>
     <h2>This is a heading</h2>
     <h3>This is a heading</h3>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta iure illum provident modi temporibus aut delectus sed aperiam odio sunt, suscipit officiis deleniti nobis. Nesciunt dolore est, exercitationem reprehenderit consectetur perspiciatis recusandae fuga nobis odit, rerum amet atque unde quod deleniti architecto optio minus quia facilis officia dolorem veritatis iste.</p>
@@ -34,9 +56,14 @@
         pisicing elit. Necessitatibus, repellat nostrum harum delectus repellendus assumenda illo dolore vel sed, unde beatae natus magnam voluptate a. Nemo nostrum facere aperiam, exercitationem, id autem aliquid explicabo fuga, quos at consequuntur sequi delectus recusandae deleniti! Veniam nulla ratione velit atque reprehenderit dignissimos praesentium!</p>
     <a href="#" class="button">Default Button</a>
 
-    <hr />
+    
+            </div>
 
-        <img src="http://via.placeholder.com/2000x1000" width="2000" height="1000" alt="placeholder">
+        </section>
+        <section id="layout">
+            <div class="container">
+                <h2 class="section-heading">Layout</h2>
+                <img src="http://via.placeholder.com/2000x1000" width="2000" height="1000" alt="placeholder">
 
        
 
@@ -172,10 +199,27 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi commodi sapiente at quaerat, a sunt quos, cumque necessitatibus architecto corporis perferendis voluptate tempore minus!</p>
     </div>
 </div>
+            </div>
 
-<hr />
+        </section>
+    </main>
 
-</div>
+    <footer class="site-footer">
+        <ul>
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#layout">Layout</a></li>
+        </ul>
+    </footer>
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINAND -->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
 
 
 </body>
